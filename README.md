@@ -1,8 +1,10 @@
 # Firebase messaging test
 
 ```bash
-export GOOGLE_APPLICATION_CREDENTIALS="Credentials.json"
-go run main.go
+export GOOGLE_APPLICATION_CREDENTIALS="service-account.json"
+
+# Set registration token inside main.go
+go run .
 ```
 
 ## Links
